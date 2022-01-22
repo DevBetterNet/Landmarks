@@ -16,6 +16,7 @@
 		C4293390279C564800641F13 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C429338F279C564800641F13 /* LandmarkList.swift */; };
 		C4293392279C56D900641F13 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4293391279C56D900641F13 /* LandmarkDetail.swift */; };
 		C4293398279C5F8700641F13 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4293397279C5F8700641F13 /* ContentView.swift */; };
+		C429339A279C643600641F13 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4293399279C643600641F13 /* FavoriteButton.swift */; };
 		C43711D7279C18CC00809325 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43711D6279C18CC00809325 /* LandmarksApp.swift */; };
 		C43711DB279C18CC00809325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43711DA279C18CC00809325 /* Assets.xcassets */; };
 		C43711DE279C18CC00809325 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C43711DD279C18CC00809325 /* Preview Assets.xcassets */; };
@@ -31,6 +32,7 @@
 		C429338F279C564800641F13 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		C4293391279C56D900641F13 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		C4293397279C5F8700641F13 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C4293399279C643600641F13 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		C43711D3279C18CC00809325 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C43711D6279C18CC00809325 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		C43711DA279C18CC00809325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,12 +61,9 @@
 		C4293386279C508400641F13 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C429339C279C649200641F13 /* Landmarks */,
+				C429339B279C647F00641F13 /* Helpers */,
 				C4293397279C5F8700641F13 /* ContentView.swift */,
-				C429337D279C437800641F13 /* CircleImage.swift */,
-				C429337F279C447300641F13 /* MapView.swift */,
-				C429338D279C555D00641F13 /* LandmarkRow.swift */,
-				C429338F279C564800641F13 /* LandmarkList.swift */,
-				C4293391279C56D900641F13 /* LandmarkDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -76,6 +75,26 @@
 				C429338A279C54B100641F13 /* ModelData.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C429339B279C647F00641F13 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				C429337D279C437800641F13 /* CircleImage.swift */,
+				C429337F279C447300641F13 /* MapView.swift */,
+				C4293399279C643600641F13 /* FavoriteButton.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		C429339C279C649200641F13 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				C429338D279C555D00641F13 /* LandmarkRow.swift */,
+				C429338F279C564800641F13 /* LandmarkList.swift */,
+				C4293391279C56D900641F13 /* LandmarkDetail.swift */,
+			);
+			path = Landmarks;
 			sourceTree = "<group>";
 		};
 		C43711CA279C18CB00809325 = {
@@ -189,6 +208,7 @@
 				C4293380279C447300641F13 /* MapView.swift in Sources */,
 				C43711D7279C18CC00809325 /* LandmarksApp.swift in Sources */,
 				C4293390279C564800641F13 /* LandmarkList.swift in Sources */,
+				C429339A279C643600641F13 /* FavoriteButton.swift in Sources */,
 				C4293392279C56D900641F13 /* LandmarkDetail.swift in Sources */,
 				C429337E279C437800641F13 /* CircleImage.swift in Sources */,
 				C4293398279C5F8700641F13 /* ContentView.swift in Sources */,
